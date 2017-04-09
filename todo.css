@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+a, p, input {
+  font-size: 18pt;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  margin: 20px;
+}
+
+nav a {
+  width: 50%;
+  margin:0;
+}
+
+nav a, input[type="button"] {
+  padding: 20px;
+  text-decoration: none;
+  background: #00a4e4;
+  color: white;
+  border: none;
+  margin: 20px;
+}
+
+nav a:hover, input[type="button"]:hover {
+  background: #b1b3b6;
+  cursor: hand;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  margin: 0 auto;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+.task {
+  font-size: 18pt;
+  margin-left: 15px;
+}
+
+.remove, .complete {
+  text-decoration: none;
+}
+
+.remove {
+  color: red;
+}
+
+li .complete {
+  color: green;
+}
